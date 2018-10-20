@@ -1,0 +1,57 @@
+<div class="card row">
+<h1>Flight Search with Flight Details and Date</h1>
+
+<div>
+  <div class="control-group">
+      <div><label>From:</label></div>
+  <select  [(ngModel)]="from">
+      <option *ngFor = 'let city of cities' >{{city}}</option> 
+    </select>
+</div>
+<div class="control-group">
+  <div><label>To:</label></div>
+  <select  [(ngModel)]="to">
+      <option *ngFor = 'let city of cities' >{{city}}</option> 
+    </select>
+  </div>
+
+<div class="control-group">
+  <label>Date:</label>
+  <input  (change)="mychange($event)"  [(ngModel)]="date" class="form-control" size="30" type="date">
+</div>
+<div>Date Format: YYYY-MM-DD</div>
+
+<div class="control-group">
+  <button
+    class="btn btn-default"
+    (click)="search()"
+    [disabled]="!from || !to">
+    Search
+  </button>
+
+  <button
+  class="btn btn-default"
+  (click)="getAllFlights()">
+  All Flights
+</button>
+</div>
+</div>
+
+<div class="row">
+<h1>Flight Search with Flight Number</h1>
+    <label>Flight Number:</label>
+    <input [(ngModel)]="flightNum" class="form-control" size = "4">
+    <div>
+        <button class="btn btn-default" (click) = "findByFlightNumber()">
+        Search
+        </button>
+    </div>
+</div>  
+
+<div class="row">
+<div *ngFor="let f of flights" class="col col-lg-3 col-md-4 col-sm-6 col-xs-12">
+  <flight-card
+    [item]="f">    
+  </flight-card>
+</div>
+</div>

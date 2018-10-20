@@ -1,0 +1,122 @@
+{
+    "cities": [
+        {
+            "id": 1,
+            "title": "Ahmedabad"
+        },
+        {
+            "id": 2,
+            "title": "Pune"
+        },
+        {
+            "id": 3,
+            "title": "Delhi"
+        },
+        {
+            "id": 4,
+            "title": "Mumbai"
+        }
+    ],
+    "flights": [
+        {
+            "_id": "2325",
+            "from_city": "Delhi",
+            "to_city": "Pune",
+            "title": "SpiceJet",
+            "time": "6:20 PM",
+            "duration": "2h 7m",
+            "price": 3361,
+			"date": "2018-01-01"
+        },
+        {
+            "_id": "2326",
+            "from_city": "Ahmedabad",
+            "to_city": "Mumbai",
+            "title": "IndiGo",
+            "time": "9:54 PM",
+            "duration": "3h 39m",
+            "price": 4602,
+			"date": "2018-02-01"
+        },
+        {
+            "_id": "2327",
+            "from_city": "Mumbai",
+            "to_city": "Delhi",
+            "title": "SpiceJet",
+            "time": "19:54 PM",
+            "duration": "5h 49m",
+            "price": 2802,	
+			"date": "2018-03-01"
+        },
+        {
+            "_id": "2328",
+            "from_city": "Pune",
+            "to_city": "Mumbai",
+            "title": "AirIndia",
+            "time": "23:1 AM",
+            "duration": "5h 0m",
+            "price": 2244,
+			"date": "2018-04-01"
+        },
+        {
+            "_id": "2329",
+            "from_city": "Ahmedabad",
+            "to_city": "Pune",
+            "title": "SpiceJet",
+            "time": "10:27 AM",
+            "duration": "3h 53m",
+            "price": 5044,		
+			"date": "2018-05-01"
+        },
+        {
+            "_id": "2330",
+            "from_city": "Delhi",
+            "to_city": "Mumbai",
+            "title": "KingFisher",
+            "time": "13:33 AM",
+            "duration": "2h 9m",
+            "price": 2196,	
+			"date": "2018-06-01"
+        },
+        {
+            "_id": "2331",
+            "from_city": "Mumbai",
+            "to_city": "Ahmedabad",
+            "title": "KingFisher",
+            "time": "11:57 AM",
+            "duration": "8h 18m",
+            "price": 7339,
+			"date": "2018-07-01"
+        },
+        {
+            "_id": "2332",
+            "from_city": "Pune",
+            "to_city": "Delhi",
+            "title": "SpiceJet",
+            "time": "14:54 PM",
+            "duration": "4h 47m",
+            "price": 4408,
+			"date": "2018-08-01"
+        },
+        {
+            "_id": "2333",
+            "from_city": "Ahmedabad",
+            "to_city": "Delhi",
+            "title": "KingFisher",
+            "time": "16:23 AM",
+            "duration": "6h 25m",
+            "price": 7021,
+			"date": "2018-09-01"
+        },
+        {
+            "_id": "2334",
+            "from_city": "Pune",
+            "to_city": "Mumbai",
+            "title": "AirIndia",
+            "time": "10:39 PM",
+            "duration": "3h 41m",
+            "price": 4958,	
+			"date": "2018-09-02"
+        }    
+    ]
+}
